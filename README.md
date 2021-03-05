@@ -6,4 +6,4 @@ Zach Force
 
 Fergus Horner 
 
-Chris Popeck https://github.com/cpopeck
+Chris Popeck 
