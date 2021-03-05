@@ -7,3 +7,9 @@ Zach Force
 Fergus Horner 
 
 Chris Popeck 
+
+Chosen Benchmarks:
+- Redis
+- MySQL
+- Network latency—netperf
+- HPC—Linpack
