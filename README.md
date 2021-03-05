@@ -5,7 +5,7 @@
 - Zach Force
 - Fergus Horner 
 - Chris Popeck 
-## Project Overview
+## Project Overview:
  We have chosen to do the Performance evaluation of virtualization approaches project. Will conduct our tests by setup scripts to run the benchmarking containers at least 20 times and collect performance metrics. All these test will be done on different types arhcitecture one being CloudLab x86_64 and the other ARM architecture to determine which works the best.
 
 ## Chosen Benchmarks:
