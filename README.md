@@ -1,14 +1,12 @@
-CSC 468 Project
+# CSC 468 Project - Team 5
 
-Christian Johnson
+## Team Members:
+- Christian Johnson
+- Zach Force
+- Fergus Horner 
+- Chris Popeck 
 
-Zach Force
-
-Fergus Horner 
-
-Chris Popeck 
-
-Chosen Benchmarks:
+## Chosen Benchmarks:
 - Redis
 - MySQL
 - Network latency—netperf
