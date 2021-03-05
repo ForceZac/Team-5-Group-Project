@@ -4,6 +4,6 @@ Christian Johnson
 
 Zach Force
 
-Fergus Horner
+Fergus Horner 
 
-Chris Popeck
+Chris Popeck https://github.com/cpopeck
