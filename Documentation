@@ -4,8 +4,13 @@ Deliverable # 1
   This documents shows and describes the four benchmarks we have chosen for our project.
 
   1. Redis:
-   
-  2. MySQL:
+   Redis is a commonly used for cache storing, allowing users to access recent information from a current session. Redis uses Memory based storage
+   rather than a disk allowing for lighting fast retrieval times. Due to the process requiring a round-trip between the user and server, many concurrent users can 
+   create latency issues. The CloudLab experiment will stress this strain in the proccess, comparing network throughput across various container technologies.
+   This will be completed by running identical test of user pinging read and writes to the server
+ 
+  
+  . MySQL:
   MySQL is a relational database system often used in the clould computing. It puts stress on memory, IPC, and filesystem and network subsystems. 
   The SysBench otlp benchmark will be used to test an instance of MySQL. Sysbench conatains a built-in database of interactions, these interactions 
   will be used with multiple MySQL configurations. SysBench will produce data regarding transaction latency and througput. These statistics will be 
