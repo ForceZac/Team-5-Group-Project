@@ -10,7 +10,7 @@ Deliverable # 1
    This will be completed by running identical test of user pinging read and writes to the server
  
   
-  . MySQL:
+  2. MySQL:
   MySQL is a relational database system often used in the clould computing. It puts stress on memory, IPC, and filesystem and network subsystems. 
   The SysBench otlp benchmark will be used to test an instance of MySQL. Sysbench conatains a built-in database of interactions, these interactions 
   will be used with multiple MySQL configurations. SysBench will produce data regarding transaction latency and througput. These statistics will be 
