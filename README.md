@@ -21,3 +21,4 @@
 https://github.com/thewmf/kvm-docker-comparison
 ## HPC-Linpack Documentation:
 https://ulhpc-tutorials.readthedocs.io/en/latest/parallel/mpi/HPL/
+https://www.pugetsystems.com/labs/hpc/How-to-Run-an-Optimized-HPL-Linpack-Benchmark-on-AMD-Ryzen-Threadripper----2990WX-32-core-Performance-1291/
