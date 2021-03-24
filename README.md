@@ -17,7 +17,7 @@
 
 ## Deliverable #1: https://github.com/cj894884/Team-5-Group-Project/blob/main/Documentation
 
-Github from document:
+## Github from document:
 https://github.com/thewmf/kvm-docker-comparison
-#HPC-Linpack Documentation:
+## HPC-Linpack Documentation:
 https://ulhpc-tutorials.readthedocs.io/en/latest/parallel/mpi/HPL/
