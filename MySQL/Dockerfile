@@ -4,4 +4,4 @@
 
 FROM ubuntu
 
-ADD mysql-opt.cnf /etc/mysql/conf.d/mysql-opt.cnf
+ADD mysql-opt.cnf /etc/mysql-opt.cnf
