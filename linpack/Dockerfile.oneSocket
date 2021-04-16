@@ -6,7 +6,7 @@ FROM ubuntu
 MAINTAINER Ram Rajamony, rajamon@us.ibm.com
 RUN sed -i s/us.archive.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
 RUN sed -i s/security.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
-RUN apt-get -qq install -y libgomp1 numactl
+RUN apt-get numactl -y
 RUN apt-get update
 ADD bin /
 CMD numactl --physcpubind=0-7,16-23 --localalloc /runme_xeon64
