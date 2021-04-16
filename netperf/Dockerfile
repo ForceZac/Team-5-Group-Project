@@ -14,3 +14,7 @@ RUN curl -LO https://github.com/HewlettPackard/netperf/archive/netperf-2.7.0.tar
 RUN cd netperf-2.7.0 && ./configure && make && make install
 
 CMD ["/usr/local/bin/netserver", "-D"]
+
+#May need these
+#ENTRYPOINT ["netserver", "-v", "-p", "12865"]
+#EXPOSE 12865
