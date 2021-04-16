@@ -4,7 +4,7 @@ FROM ubuntu:saucy
 
 RUN sed -i s/us.archive.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
 RUN sed -i s/security.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
-RUN apt-get install numactl
+RUN apt-get install numactl -y
 MAINTAINER Ram Rajamony, rajamon@us.ibm.com
 
 ADD bin /
