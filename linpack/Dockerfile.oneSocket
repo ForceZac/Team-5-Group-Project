@@ -4,7 +4,7 @@ FROM ubuntu:saucy
 
 RUN sed -i s/us.archive.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
 RUN sed -i s/security.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
-RUN apt-get -qq install -y libgomp1 numactl
+RUN apt-get install numactl
 MAINTAINER Ram Rajamony, rajamon@us.ibm.com
 
 ADD bin /
