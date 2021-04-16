@@ -38,4 +38,3 @@ arch=xeon64
   echo -n "Done: "
   date
 } | tee lin_$arch.txt
-
