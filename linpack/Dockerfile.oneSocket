@@ -4,10 +4,10 @@ FROM ubuntu
 
 
 MAINTAINER Ram Rajamony, rajamon@us.ibm.com
-sudo apt-get update
+RUN apt-get update
 RUN sed -i s/us.archive.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
 RUN sed -i s/security.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
-sudo apt-get update
-suod apt-get install numactl -y
+RUN apt-get update
+RUN apt-get install numactl -y
 ADD bin /
 CMD numactl --physcpubind=0-7,16-23 --localalloc /runme_xeon64
