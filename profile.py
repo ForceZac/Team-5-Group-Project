@@ -36,7 +36,7 @@ for i in range(num_nodes):
   link.addInterface(iface)
   
   #test add netperf
-  node.addService(pg.Execute(shell="sh", command="sudo bash /local/repository/install_kubernetes.sh"))
+  node.addService(pg.Execute(shell="sh", command="sudo bash /local/repository/install_netperf.sh"))
   # setup Docker
   node.addService(pg.Execute(shell="sh", command="sudo bash /local/repository/install_docker.sh"))
   # setup Kubernetes
