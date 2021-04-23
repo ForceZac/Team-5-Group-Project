@@ -33,6 +33,7 @@ now=`date`
 echo "Running linpack, started at $now"
 echo "--------------------------------------------------------------------------------" >> $log
 echo "Running linpack, started at $now" >> $log
+docker run -ti --privileged linpack
 docker run --rm linpack >> $log
 
 echo "" >> $log
