@@ -5,9 +5,9 @@ FROM ubuntu
 
 MAINTAINER Ram Rajamony, rajamon@us.ibm.com
 RUN apt-get update
-RUN sed -i s/us.archive.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
+RUN sed -i 's+http://us.archive.ubuntu.com/ubuntu+http://old-releases.ubuntu.com/ubuntu/+g' /etc/apt/sources.lis
 RUN apt-get update
-RUN sed -i s/security.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
+#RUN sed -i s/security.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install numactl -y
 ADD bin /
