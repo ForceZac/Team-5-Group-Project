@@ -17,24 +17,17 @@ else
     exit 1
 fi
 
-# SUT=arldcn24
-DIR=`pwd`
 
-# Don't make the executable - we got it from intel
-
-# build the container (assumes the spyre git repo is in NFS)
-docker build -t linpack $DIR
+docker build -t linpack .
 
 # run the test
 
-mkdir -p results
-log="results/docker.log"
-now=`date`
-echo "Running linpack, started at $now"
-echo "--------------------------------------------------------------------------------" >> $log
-echo "Running linpack, started at $now" >> $log
-docker run -ti --privileged linpack
-docker run --rm linpack >> $log
 
-echo "" >> $log
+echo "Running linpack, started at $now"
+echo "--------------------------------------------------------------------------------"
+echo "Running linpack, started at $now" 
+docker run -ti --privileged linpack
+docker run --rm linpack
+rm -f Dockerfile
+echo "" 
 echo -n "Experiment completed at "; date
