@@ -1,0 +1,10 @@
+FROM ubuntu
+
+MAINTAINER Christian
+
+RUN apt-get update
+RUN apt-get install numactl -y
+
+add bin /
+
+CMD numactl --physcpubind=0-31 --interleave=0,1 /runme_xeon64
