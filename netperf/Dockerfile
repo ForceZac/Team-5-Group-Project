@@ -1,5 +1,5 @@
 #FROM ubuntu:14.04
-FROM UBUNTU
+FROM ubuntu
 MAINTAINER paultiplady@gmail.com
 
 # Satisfy deps
