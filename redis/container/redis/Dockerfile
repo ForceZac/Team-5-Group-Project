@@ -1,6 +1,6 @@
 # In production this should probably be busybox, but let's use ubuntu for a
 # fair comparison 
-FROM UBUNTU
+FROM ubuntu
 
 # Install the redis server and CLI tool
 #RUN apt-get install -y redis-server
