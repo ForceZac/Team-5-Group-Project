@@ -25,7 +25,7 @@ for i in range(num_nodes):
   if i == 0:
     node = request.XenVM("arldcn28")
     if i == 1:
-      node = request.XenVM("arldcn24)
+      node = request.XenVM("arldcn24")
   else:
     node = request.XenVM("worker-" + str(i))
   node.cores = 4
