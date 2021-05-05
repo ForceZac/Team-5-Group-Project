@@ -23,9 +23,7 @@ link = request.LAN("lan")
 num_nodes = 3
 for i in range(num_nodes):
   if i == 0:
-    node = request.XenVM("arldcn28")
-    if i == 1:
-      node = request.XenVM("arldcn24")
+    node = request.XenVM("head")
   else:
     node = request.XenVM("worker-" + str(i))
   node.cores = 4
