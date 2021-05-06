@@ -26,7 +26,7 @@ for i in range(num_nodes):
     node = request.XenVM("head")
   else:
     node = request.XenVM("worker-" + str(i))
-    link1 = request.Link(members = [head,worker-1])
+  
   node.cores = 4
   node.ram = 8192
   node.routable_control_ip = "true" 
