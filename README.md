@@ -3,11 +3,11 @@
 ## How to run:
 
 Instaniate the linpack branch from our team-5-project
-##<chmod +x /local/repository/linpack/change_files.sh>
-##<sudo bash /local/repository/linpack/changfiles.s>
-##cd into linpack dir
-##<./runBench.sh> for local image
-##<./runDocker.sh> for docker hub image
+## <chmod +x /local/repository/linpack/change_files.sh>
+## <sudo bash /local/repository/linpack/changfiles.s>
+## cd into linpack dir
+## <./runBench.sh> for local image
+## <./runDocker.sh> for docker hub image
 
 
 
