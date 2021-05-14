@@ -5,6 +5,7 @@
 * Instaniate the linpack branch from our team-5-project and ssh into the raw pc node
 * cd /local/repository/linpack
 * <chmod +x change_files.sh>
+
 * <sudo bash change_files.sh>
 * bash
 * <./runBench.sh> for local image
