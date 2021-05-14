@@ -8,11 +8,11 @@ ssh -p 22 cpop@pcvm757-1.emulab.net "cd Team*/netperf && docker build -t netserv
 ssh -p 22 cpop@pcvm757-1.emulab.net docker run -d --network="host" netserver
 for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 do
-ssh -p 22 cpop@pcvm757-2.emulab.net netperf -l 60 -H 10.71.0.24 -t TCP_RR -- -r 100,200
+ssh -p 22 cpop@pcvm757-2.emulab.net netperf -l 60 -H 10.71.0.24 -t TCP_RR -- -r 100,200  >> results/docker.txt
 done
 for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 do
-ssh -p 22 cpop@pcvm757-2.emulab.net netperf -l 60 -H 10.71.0.24 -t UDP_RR -- -r 100,200
+ssh -p 22 cpop@pcvm757-2.emulab.net netperf -l 60 -H 10.71.0.24 -t UDP_RR -- -r 100,200  >> results/docker.txt
 done
 # clean up
 #ssh $SERVER docker stop netserver
