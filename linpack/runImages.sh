@@ -1,11 +1,11 @@
 #!/bin/bash
 
 docker pull cj894884/dockerhub:linpackonesocket
-docker run -ti --priveleged cj894884/dockerhub:linpackonesocket
+docker run -ti --privileged cj894884/dockerhub:linpackonesocket
 docker image rm -f cj894884/dockerhub:linpackonesocket
 
 docker pull cj894884/dockerhub:linpacktwosocket
-docker run -ti --pivelged cj894884/dockerhub:linpacktwosocket
+docker run -ti --pivileged cj894884/dockerhub:linpacktwosocket
 docker image rm -f cj894884/dockerhub:linpacktwosocket
 
 cd bin
