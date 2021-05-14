@@ -11,7 +11,7 @@ ssh -p 22 cpop@pcvm757-2.emulab.net netperf -l 60 -H 192.168.1.1 -t TCP_RR -- -r
 done
 for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 do
-ssh -p 22 cpop@pcvm757-2.emulab.net netperf -l 60 -H 192.168.1.1 -t UDP_RR -- -r 100,200
+ssh -p 22 cpop@pcvm757-2.emulab.net netperf -l 60 -H 192.168.1.1 -t UDP_RR -- -r 100,200  >> results/native.txt
 done
 # clean up
 #ssh $SERVER docker stop netserver
