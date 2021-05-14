@@ -18,16 +18,18 @@ else
 fi
 
 
-docker build -t linpack .
+docker build -t linpack . 
 
 # run the test
 
-
+mkdir -p results
+log ="results/docker.log"
+now='date'
 echo "Running linpack, started at $now"
 echo "--------------------------------------------------------------------------------"
-echo "Running linpack, started at $now" 
+echo "Running linpack, started at $now" >> $log
 docker run -ti --privileged linpack
-docker run --rm linpack
+docker run --rm linpack >> $log
 rm -f Dockerfile
 echo "" 
 echo -n "Experiment completed at "; date
