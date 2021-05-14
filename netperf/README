@@ -1,2 +1,0 @@
-To run the files you need to first change the ssh to match your experiment inside both the docker.sh and the native.sh files.
-After this you should only need to run bash docker.sh and bash native.sh then the results will be output into the results folder. 
