@@ -8,10 +8,3 @@
 * <sudo bash changefiles.sh>
 * <./runBench.sh> for local image
 * <./runImages.sh> for docker hub image
-
-
-
-
-
-
-
