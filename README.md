@@ -4,6 +4,6 @@
 * cd /local/repository/linpack
 * <chmod +x change_files.sh>
 * bash
-* </change_files.sh>
+* <./change_files.sh>
 * <./runBench.sh> for local 
 * <./runImages.sh> for docker 
