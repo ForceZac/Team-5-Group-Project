@@ -7,3 +7,5 @@
 * <./change_files.sh>
 * <./runBench.sh> for local 
 * <./runImages.sh> for docker 
+
+## Note: This Benchmark will take some time to complete(2+ Hours)
