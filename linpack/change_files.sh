@@ -8,3 +8,4 @@ chmod +x /local/repository/linpack/docker.sh
 chmod +x /local/repository/linpack/linux.sh
 chmod +x /local/repository/linpack/doit.sh
 chmod +x /local/repository/linpack/runBench.sh
+chmod +x /local/repository/linpack/runImages.sh
