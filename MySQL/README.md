@@ -9,7 +9,7 @@ docker build -t "mysql-single" .
 
 docker run -d -p 3307:3306 mysql-single
 
-# Access the image. Replace User: root, Password: supervisor, as needed.
+## Access the image. Replace User: root, Password: supervisor, as needed.
 
 mysql -uroot -psupervisor -h127.0.0.1 -P3306
 
